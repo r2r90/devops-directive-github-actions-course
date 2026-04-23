@@ -75,9 +75,9 @@ jobs:
   #
   #  (They also offer MacOS and Windows runners!)
   ######################################
-  aws-ubuntu-vm:
-    name: AWS Ubuntu VM
-    runs-on: runs-on=${{ github.run_id }}/runner=1cpu-linux-x64
+  namespace-ubuntu-vm:
+    name: Namespace Ubuntu VM
+    runs-on: namespace-profile-github-actions-course
     steps:
       - name: Show runner info
         run: |
