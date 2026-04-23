@@ -68,7 +68,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh pr edit 1 --add-label "documentation"
+          gh pr edit 3 --add-label "documentation"
       - name: Confirm the
         if: success()
         run: echo "✅ Write operation succeeded!"
